@@ -50,10 +50,10 @@
     {
         int convertedTotal = 0;
 
-        foreach (string romanNumeralDecomposed in decomposedRomanNumerals)
+        foreach (string decomposedRomanNumeral in decomposedRomanNumerals)
         {
-            Console.WriteLine(romanNumeralDecomposed);
-            convertedTotal += Fonctions.RomanToDecimal(romanNumeralDecomposed);
+            Console.WriteLine(decomposedRomanNumeral);
+            convertedTotal += Fonctions.RomanToDecimal(decomposedRomanNumeral);
         }
 
         return convertedTotal;
